@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #ec6800;
+}
+
+.cat-img {
+  width: 300px;
+  height: auto;
+  margin: o auto;
+  border-radius: 3%;
+  border: 5px solid #554738;
+}
+
+.btn-box {
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.favorite-btn {
+  background-color: #e9546b;
+  color: #fff;
+  font-size: larger;
+  border: none;
+  border-radius: 10%;
+  padding: 3px 8px;
+  transition: all 0.5s;
+}
+
+.favorite-btn:hover {
+  cursor: pointer;
+  background-color: #f09199;
+}
+
+.next-btn {
+  font-size: larger;
+  border: none;
+  border-radius: 5%;
+  padding: 6px 9px;
+  background-color: #745399;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.next-btn:hover {
+  cursor: pointer;
+  background-color: #9079ad;
+}
